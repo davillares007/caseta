@@ -3,21 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Halloween</title>
-    <style>
-        /* Aplicando el fondo de imagen a toda la página */
-        body {
-            background-image: url('halloween.jpg'); /* Ruta de la imagen */
-            background-size: cover; /* Ajusta la imagen para cubrir toda la pantalla */
-            background-position: center; /* Centra la imagen */
-            background-repeat: no-repeat; /* Evita que la imagen se repita */
-            height: 100vh; /* Altura de la pantalla completa */
-            margin: 0;
-        }
-    </style>
+    <title>JUEGA O MUERE</title>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <h1>Juega o muere</h1>
-    <h2>Prueba 11</h2>
+    <div class="container">
+        <div class="content">
+            <h1>JUEGA O MUERE</h1>
+            <p>Jugaré, no abandonaré</p>
+    
+            <button id="playVideoButton"> CONTINUAR</button>
+        </div>
+
+        <div id="videoContainer" class="hidden">
+            <video id="video" width="640" height="360" controls>
+                <source src="video/caseta.mp4" type="video/mp4">
+                Tu navegador no soporta la reproducción de video.
+            </video>
+        </div>
+  
+        <div id="imageButtonContainer" class="hidden">
+            <button id="showImageButton">PISTA</button>
+        </div>
+
+        <div id="imageContainer" class="hidden">
+            <img id="image" src="img/Caseta halloween.jpg" alt="Imagen">
+            <a href="https://maps.app.goo.gl/kPQt2RkQpVbabhja6"> <button id="miubicacion"> UBICACIÓN</button></a>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
 </body>
 </html>

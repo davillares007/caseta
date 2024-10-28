@@ -1,0 +1,105 @@
+body {
+    background-image: url('../img/Foto_halloween.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+    background-color: #f4f4f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #2d2d2d;
+    color: #ffaf02;
+}
+/*
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f9;
+}
+*/
+h1 {
+    margin: 0;
+    font-size: 3rem;
+    color: #cf0707;
+    text-shadow: 2px 2px 5px #000;
+}
+header {
+    padding: 20px;
+    background-color: #000;
+}
+p {
+    font-size: 18px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 10px;
+    cursor: pointer;
+    background-color: #ff0000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #b30000;
+}
+
+.hidden {
+    display: none;
+}
+
+#videoContainer {
+   margin-top: 20px;
+    /* width: 56.25vh;  
+    height: 100vh;  
+    background-color: black; 
+    display: flex;
+    justify-content: center;
+    align-items: center;*/
+}
+
+#imageContainer {
+    margin-top: 20px;
+}
+
+
+/*tamaño foto*/
+img {
+    width: 100%;
+    
+    height: auto;
+}
+
+/*tamaño vídeo*/
+video {
+    width: 100%;  /* Ajustar el video al ancho del contenedor */
+    height: 100%; /* Ajustar el video a la altura del contenedor */
+    object-fit: cover;  /* Asegurar que el video cubra el contenedor manteniendo la proporción */
+}
+
+/*botón volver a inicio*/
+
+#miubicacion {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+#miubicacionhover {
+    background-color: #c82333;
+}
