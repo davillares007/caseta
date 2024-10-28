@@ -15,6 +15,7 @@ body {
     font-family: 'Courier New', Courier, monospace;
     background-color: #2d2d2d;
     color: #ffaf02;
+    overflow: hidden;
 }
 /*
 body {
