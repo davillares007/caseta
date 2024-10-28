@@ -103,3 +103,7 @@ video {
 #miubicacionhover {
     background-color: #c82333;
 }
+
+a{
+    text-decoration: none;
+}
